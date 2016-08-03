@@ -1,0 +1,43 @@
+{
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "rdfs:comment": ["inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/"],
+  "dcterms:bibliographicCitation": "Poelen, JH (2016). Plant pathogen-host interactions scraped from Common Names of Plant Diseases published by The American Phytopathological Society at http://www.apsnet.org/publications/commonnames/Pages/default.aspx .",
+  "url": "https://github.com/jhpoelen/samara/releases/download/v0.1.6/apsnet.tsv.gz",
+  "headerRowCount": 1,
+  "null": [""],
+  "tableSchema": {
+    "columns": [{
+      "name": "disease_name",
+      "titles": "disease_name",
+      "datatype": "string"
+    }, {
+      "name": "sourceTaxonName",
+      "titles": "source_taxon_name",
+      "datatype": "string"
+    }, {
+      "name": "interactionTypeLabel",
+      "titles": "interaction_type_label",
+      "datatype": "string"
+    }, {
+      "name": "interactionTypeId",
+      "titles": "interaction_type_id",
+      "datatype": "string"
+    },{
+      "name": "targetTaxonName",
+      "titles": "target_taxon_name",
+      "datatype": "string"
+    }, {
+      "name": "studyCitation",
+      "titles": "source_citation",
+      "datatype": "string"
+    },{
+      "name": "studyUrl",
+      "titles": "source_url",
+      "datatype": "string"
+    },{
+      "name": "source_accessed_at",
+      "titles": "source_accessed_at",
+      "datatype": "string"
+    }]
+  }
+}
