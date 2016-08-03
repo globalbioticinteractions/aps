@@ -15,7 +15,7 @@
       "titles": "source_taxon_name",
       "datatype": "string"
     }, {
-      "name": "interactionTypeLabel",
+      "name": "interactionTypeName",
       "titles": "interaction_type_label",
       "datatype": "string"
     }, {
@@ -27,11 +27,11 @@
       "titles": "target_taxon_name",
       "datatype": "string"
     }, {
-      "name": "studyCitation",
+      "name": "referenceCitation",
       "titles": "source_citation",
       "datatype": "string"
     },{
-      "name": "studyUrl",
+      "name": "referenceUrl",
       "titles": "source_url",
       "datatype": "string"
     },{
