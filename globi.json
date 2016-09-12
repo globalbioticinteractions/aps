@@ -20,6 +20,10 @@
       "titles": "source_taxon_name",
       "datatype": "string"
     }, {
+      "name": "sourceTaxonId",
+      "titles": "source_taxon_id",
+      "datatype": "string"
+    }, {
       "name": "interactionTypeName",
       "titles": "interaction_type_label",
       "datatype": "string"
@@ -34,6 +38,10 @@
     },{
       "name": "targetTaxonName",
       "titles": "target_taxon_name",
+      "datatype": "string"
+    },{
+      "name": "targetTaxonId",
+      "titles": "target_taxon_id",
       "datatype": "string"
     }, {
       "name": "referenceCitation",
