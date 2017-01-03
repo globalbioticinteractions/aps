@@ -2,7 +2,7 @@
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
   "rdfs:comment": ["inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/"],
   "dcterms:bibliographicCitation": "Poelen, JH (2016). Plant pathogen-host interactions scraped from Common Names of Plant Diseases published by the American Phytopathological Society at http://www.apsnet.org/publications/commonnames/Pages/default.aspx using Samara, a Planteome (http://planteome.org) plant-trait scraper.",
-  "url": "https://github.com/jhpoelen/samara/releases/download/v0.1.8/apsnet.tsv.gz",
+  "url": "apsnet.tsv",
   "delimiter": "\t",
   "headerRowCount": 1,
   "null": [""],
